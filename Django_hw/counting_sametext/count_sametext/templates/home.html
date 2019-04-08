@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>여기에 글자를 입력하세요!</h1>
+    <form action = "{% url 'result' %}" method = "get">
+        <textarea rows="10" cols="60" name="fulltext"></textarea>
+        <br>
+        <input type = "submit" value="count!">
+    </form>
+</body>
+</html>
