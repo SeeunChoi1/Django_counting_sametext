@@ -1,0 +1,337 @@
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    margin-left: 100px;
+}
+
+.form-inline {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.nav-item {
+    margin-left: 25px;
+    font-size: 25px;
+}
+
+.icons{
+    display: none;
+
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 1%;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    /* border: solid black 1px; */
+}
+
+.pro {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-around;
+    width: 80%;
+    height: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* border: solid blue 4px; */
+}
+
+.heighlight_pro {
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 80%;
+    height: 100%;
+    margin: 10px;
+    /* border: solid blue 4px; */
+}
+
+.menu_pro {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 80%;
+    height: 100%;
+    margin-top: 15px;
+    /* border: solid blue 4px; */
+}
+
+.content_pro {
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    /* border: solid blue 1px; */
+}
+
+.pro_pic{
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: hidden;
+    width : 120px;
+    height : 120px;
+    /* border: solid red 1px; */
+}
+
+.text_id{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    font-size: 1.5rem;
+    padding-right: 10px;
+    font-weight: bold;
+    /* border: solid yellowgreen 4px; */
+}
+
+.text_edit{
+    display: none;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    font-size: 15px;
+    /* font-weight: bold; */
+    /* border: solid yellowgreen 4px; */
+}
+
+.text{
+    display: flex;
+    position: relative;
+    /* justify-content: space-around; */
+    align-items: center;
+    height: 50px;
+    font-size: 1rem;
+    padding-right: 10px;
+    /* border: solid yellowgreen 4px; */
+}
+
+.text_bold{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    font-size: 15px;
+    padding-right: 20px;
+    font-weight: bold;
+    /* border: solid yellowgreen 4px; */
+}
+
+.message{
+    justify-content: center;
+    text-align: center;
+    border-radius: 0.5rem;
+    padding: 8px 8px;
+    font-size: 14px;
+    border: 1.2px rgba(128, 128, 128, 0.2) solid;
+}
+
+.ipad{
+    display:none;
+}
+
+.setting{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    /* border: solid yellowgreen 4px; */
+    font-size: 1.5rem;
+}
+
+.box0 {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* border: solid black 3px; */
+    flex-direction: column;
+    height: 100%;
+    width: 45%;
+}
+
+.box1 {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    /* border: solid skyblue 3px; */
+    width: 100%;
+}
+
+.box2 {
+    display: none;
+    position: relative;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* border: solid skyblue 3px; */
+    width: 100%;
+}
+
+.box3{
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    align-items: center;
+    /* border: solid skyblue 3px; */
+    width: 100%;
+}
+
+.profile{
+    width: 100%;
+    margin-top: 10px;
+    padding-left: 30px;
+    /* border: 1px red solid; */
+}
+
+.heighlight{
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 20%;
+    margin-left: 15px;
+
+    /* border: solid pink 3px;  */
+
+}
+
+.heigh_pic{
+    border-radius: 50%;
+    overflow: hidden;
+    height: 60px;
+    width: 60px;
+    /* border: solid yellow 3px;  */
+}
+
+.pic_img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.heigh_name {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-size: 0.5rem;
+    margin-top: 10%;
+    /* border: solid yellow 1px;  */
+}
+
+.menu {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 0 12px 0 12px;
+    /* border: solid skyblue 1px; */
+}
+
+.posting_box{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 33.333%;
+    margin-bottom: 4px;
+    /* border: solid pink 1px;  */
+}
+
+.posting{
+    display: flex;
+    position: relative;
+    height: 120px;
+    width:120px;
+    /* margin: 10px; */
+}
+
+/* ipad pro */
+@media(min-width:768px){
+    .icons, .ipad, .box2{
+        display:flex;
+    }
+    .mobile{
+        display: none;
+    }
+    .navbar-brand{
+        margin-left: 25px;
+    }
+    .icons{
+        font-size: 1.5rem;
+    }
+    .text{
+        padding-right: 3px;
+    }
+    .profile{
+        margin-top: 0px;
+        width:40%;
+        margin-left: 130px;
+    }
+    .heigh_pic{
+        height: 80px;
+        width: 80px;
+    }
+    .posting_box{
+        margin-bottom: 20px;
+    }
+    .posting{
+        height: 225px;
+        width: 225px;
+    }
+
+}
+
+/* labtop */
+@media(min-width:1024px){
+    .icons{
+        display:none;
+    }
+    .pro_pic{
+        width: 150px;
+        height: 150px;
+    }
+    .heighlight_pro{
+        justify-content: center;
+    }
+    .heigh_pic{
+        width: 100px;
+        height: 100px;
+    }
+    .content_pro{
+        padding: 0 150px;
+    }
+    .box3{
+        width: auto;
+    }
+    .profile{
+        margin-left: 240px;
+    }
+    .posting{
+        height:300px;
+        width: 300px;
+    }
+
+}
